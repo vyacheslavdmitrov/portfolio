@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #000000;
-  background: #222222 url("img/lizabot.jpg") no-repeat 50% 0;
+  background: #222222 url("lizabot.jpg") no-repeat 50% 0;
 }
 
 h1 {
@@ -71,17 +71,17 @@ h2 {
 
 .feature-kitten {
   padding-top: 60px;
-  background-image: url("img/bottle.svg");
+  background-image: url("bottle.svg");
 }
 
 .feature-cat {
   padding-top: 60px;
-  background-image: url("img/cat.svg");
+  background-image: url("cat.svg");
 }
 
 .feature-train {
   padding-top: 60px;
-  background-image: url("img/whistle.svg");
+  background-image: url("whistle.svg");
 }
 
 .skills-list {
