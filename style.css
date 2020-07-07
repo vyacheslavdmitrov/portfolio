@@ -9,6 +9,7 @@ body {
   background-color: #141530;
   background-image: url("img/pattern-lines-hero.svg");
   background-position: center;
+  text-align: center;
 }
 
 .container {
@@ -325,5 +326,5 @@ body {
 {
 border-radius: 20%;
 border: 3px solid white;
-align-self: center;
+
 }
