@@ -341,33 +341,47 @@
           <div class="cases-list">
             <article class="case-card">
               <div class="case-media">
-                <span>Скриншот управленческого дашборда</span>
+                <img
+                  src="assets/img/cases/powerbi-sales-dashboard.webp"
+                  alt="Обезличенный управленческий дашборд продаж в Power BI"
+                  loading="lazy"
+                >
               </div>
-
+            
               <div class="case-content">
                 <p class="case-number">Кейс 01</p>
-
+            
                 <h3>
-                  BI-система для управления продажами
+                  Power BI-система для управления продажами
                   и дилерской сетью
                 </h3>
-
+            
                 <div class="case-section">
                   <h4>Задача</h4>
                   <p>
                     Заменить ручную консолидацию Excel-отчётности
                     единой системой анализа продаж, трафика,
-                    исполнения планов и клиентских показателей.
+                    выполнения планов и ключевых коммерческих показателей.
                   </p>
                 </div>
+            
+                <div class="case-section">
+      <h4>Решение</h4>
+      <p>
+        Разработал управленческий дашборд в Power BI,
+        объединив данные из внутренних систем и настроив
+        удобную визуальную аналитику для ежедневного контроля
+        показателей по филиалам, брендам, моделям и менеджерам.
+      </p>
+    </div>
 
                 <div class="case-section">
                   <h4>Решение</h4>
                   <p>
                     Разработал комплекс приложений Power BI,
                     объединив данные 1С, CRM и внешних источников.
-                    Настроил озеро данных, контроль качества
-                    и ролевое ограничение доступа.
+                    Решение позволило перейти от ручной сборки
+                    к регулярному управленческому мониторингу в одном окне.
                   </p>
                 </div>
 
@@ -380,65 +394,75 @@
                   </p>
                 </div>
 
-                <div class="case-stack">
-                  <span>Qlik Sense</span>
-                  <span>QVD</span>
-                  <span>1С</span>
-                  <span>REST API</span>
-                  <span>CRM</span>
-                  <span>Section Access</span>
-                </div>
+              <div class="case-stack">
+                <span>Power BI</span>
+                <span>DAX</span>
+                <span>Power Query</span>
+                <span>Excel</span>
+                <span>Управленческая аналитика</span>
+                <span>BI Dashboard</span>
+              </div>
               </div>
             </article>
 
             <article class="case-card">
-              <div class="case-media">
-                <span>Схема ETL и QVD-архитектуры</span>
-              </div>
+  <div class="case-media">
+    <img
+      src="assets/img/cases/config-driven-extract.webp"
+      alt="Обезличенная конфигурация выгрузок и мэппинга полей"
+      loading="lazy"
+    >
+  </div>
 
-              <div class="case-content">
-                <p class="case-number">Кейс 02</p>
+  <div class="case-content">
+    <p class="case-number">Кейс 02</p>
 
-                <h3>
-                  Config-driven ETL и единый QVD-слой
-                </h3>
+    <h3>
+      Config-driven управление выгрузками
+      и мэппингами
+    </h3>
 
-                <div class="case-section">
-                  <h4>Задача</h4>
-                  <p>
-                    Снизить количество дублирующегося кода,
-                    стандартизировать загрузки и ускорить запуск
-                    новых аналитических приложений.
-                  </p>
-                </div>
+    <div class="case-section">
+      <h4>Задача</h4>
+      <p>
+        Упростить сопровождение выгрузок,
+        централизованно управлять перечнем таблиц,
+        логикой загрузки и правилами отображения полей
+        без постоянного редактирования большого объёма кода.
+      </p>
+    </div>
 
-                <div class="case-section">
-                  <h4>Решение</h4>
-                  <p>
-                    Реализовал централизованный Config-файл,
-                    общие правила мэппинга, повторно используемые
-                    компоненты ETL и многоуровневую структуру QVD.
-                  </p>
-                </div>
+    <div class="case-section">
+      <h4>Решение</h4>
+      <p>
+        Реализовал конфигурационный файл на базе Google Sheets,
+        через который управляются параметры экстракции:
+        какие таблицы загружать, какие отключать,
+        какие сценарии инкрементальной выгрузки применять,
+        а также как отображать и мэппить поля в витринах данных.
+      </p>
+    </div>
 
-                <div class="case-result">
-                  <strong>Результат</strong>
-                  <p>
-                    Ускорил разработку новых отчётов,
-                    упростил сопровождение загрузок и снизил
-                    количество расхождений между приложениями.
-                  </p>
-                </div>
+    <div class="case-result">
+      <strong>Результат</strong>
+      <p>
+        Упростилось управление загрузками и изменениями:
+        новые настройки и корректировки можно вносить
+        через единый конфигурационный слой
+        без глубокой переработки ETL-скриптов.
+      </p>
+    </div>
 
-                <div class="case-stack">
-                  <span>Qlik Script</span>
-                  <span>QVD</span>
-                  <span>Mapping</span>
-                  <span>ETL</span>
-                  <span>Data Quality</span>
-                </div>
-              </div>
-            </article>
+    <div class="case-stack">
+      <span>Google Sheets</span>
+      <span>Config-driven ETL</span>
+      <span>Field Mapping</span>
+      <span>Incremental Load</span>
+      <span>Qlik Script</span>
+      <span>Data Integration</span>
+    </div>
+  </div>
+</article>
 
             <article class="case-card">
               <div class="case-media">
