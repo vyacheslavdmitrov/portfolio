@@ -1,1116 +1,1047 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>
-      Vyacheslav Dmitrov — Senior Qlik Sense Developer / BI Platform Engineer
-    </title>
-
-    <meta
-      name="description"
-      content="Portfolio of Vyacheslav Dmitrov: Qlik Sense and Power BI development, ETL, QVD, SQL, REST API, 1C integrations, Section Access, monitoring, backup and BI platform support."
-    >
-
-    <meta name="author" content="Vyacheslav Dmitrov">
-    <meta name="theme-color" content="#0f172a">
-
-    <link
-      rel="canonical"
-      href="https://vyacheslavdmitrov.github.io/portfolio/eng/"
-    >
-
-    <link
-      rel="alternate"
-      hreflang="ru"
-      href="https://vyacheslavdmitrov.github.io/portfolio/"
-    >
-
-    <link
-      rel="alternate"
-      hreflang="en"
-      href="https://vyacheslavdmitrov.github.io/portfolio/eng/"
-    >
-
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://vyacheslavdmitrov.github.io/portfolio/eng/"
-    >
-
-    <meta
-      property="og:title"
-      content="Vyacheslav Dmitrov — Senior Qlik Sense Developer"
-    >
-
-    <meta
-      property="og:description"
-      content="Qlik Sense, Power BI, ETL, QVD, SQL, REST API, 1C integrations and BI platform engineering."
-    >
-
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="ru_RU">
-
-    <meta
-      property="og:url"
-      content="https://vyacheslavdmitrov.github.io/portfolio/eng/"
-    >
-
-    <meta
-      property="og:image"
-      content="https://vyacheslavdmitrov.github.io/portfolio/img/cases/powerbi-sales-dashboard.webp"
-    >
-
-    <meta
-      property="og:image:alt"
-      content="Power BI management dashboard from the portfolio of Vyacheslav Dmitrov"
-    >
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    >
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    >
-
-    <link rel="stylesheet" href="../style.css">
-  </head>
-
-  <body>
-    <header class="page-header">
-      <div class="container header-container">
-        <a
-          class="logo"
-          href="#top"
-          aria-label="Go to the top of the page"
-        >
-          <span class="logo-name">Vyacheslav Dmitrov</span>
-          <span class="logo-role">Qlik Sense / BI</span>
-        </a>
-
-        <nav
-          class="main-navigation"
-          aria-label="Main navigation"
-        >
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#cases">Case studies</a>
-          <a href="#experience">Experience</a>
-          <a href="#contacts">Contact</a>
-        </nav>
-
-        <a
-          class="button button-small button-outline"
-          href="../"
-          lang="ru"
-          hreflang="ru"
-          aria-label="Open the Russian version"
-        >
-          RU
-        </a>
-
-        <a
-          class="button button-small button-outline"
-          href="mailto:vyacheslavdmitrov@gmail.com"
-        >
-          Contact me
-        </a>
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>
+   Vyacheslav Dmitrov &mdash; Senior Qlik Sense Developer / BI Platform Engineer
+  </title>
+  <meta content="Portfolio of Vyacheslav Dmitrov: Qlik Sense, Power BI, ETL, QVD, SQL, REST API, 1C integrations, PowerShell automation, monitoring, backup and recovery for BI platforms." name="description">
+  <meta content="Vyacheslav Dmitrov" name="author">
+  <meta content="#0f172a" name="theme-color">
+  <link href="https://vyacheslavdmitrov.github.io/portfolio/eng/" rel="canonical">
+  <link href="https://vyacheslavdmitrov.github.io/portfolio/" hreflang="ru" rel="alternate">
+  <link href="https://vyacheslavdmitrov.github.io/portfolio/eng/" hreflang="en" rel="alternate">
+  <link href="https://vyacheslavdmitrov.github.io/portfolio/eng/" hreflang="x-default" rel="alternate">
+  <meta content="Vyacheslav Dmitrov &mdash; Senior Qlik Sense Developer" property="og:title">
+  <meta content="Qlik Sense, Power BI, ETL, QVD, SQL, REST API, 1C integrations and BI platform engineering." property="og:description">
+  <meta content="website" property="og:type">
+  <meta content="en_US" property="og:locale">
+  <meta content="ru_RU" property="og:locale:alternate">
+  <meta content="https://vyacheslavdmitrov.github.io/portfolio/eng/" property="og:url">
+  <meta content="https://vyacheslavdmitrov.github.io/portfolio/img/cases/powerbi-sales-dashboard.webp" property="og:image">
+  <meta content="Power BI management report from the portfolio of Vyacheslav Dmitrov" property="og:image:alt">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="../style.css?v=20260729" rel="stylesheet">
+ </head>
+ <body>
+  <header class="page-header">
+   <div class="container header-container">
+    <a aria-label="Go to the top of the page" class="logo" href="#top">
+     <span class="logo-name">
+      Vyacheslav Dmitrov
+     </span>
+     <span class="logo-role">
+      Qlik Sense / BI
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="main-navigation">
+     <a href="#about">
+      About
+     </a>
+     <a href="#skills">
+      Skills
+     </a>
+     <a href="#cases">
+      Case studies
+     </a>
+     <a href="#experience">
+      Experience
+     </a>
+     <a href="#contacts">
+      Contact
+     </a>
+    </nav>
+    <a aria-label="Open the Russian version" class="button button-small button-outline" href="../" hreflang="ru" lang="ru">
+     RU
+    </a>
+    <a class="button button-small button-outline" href="mailto:vyacheslavdmitrov@gmail.com">
+     Contact me
+    </a>
+   </div>
+  </header>
+  <main id="top">
+   <section class="hero">
+    <div class="container hero-container">
+     <div class="hero-content">
+      <p class="section-label">
+       Qlik Sense &middot; Power BI &middot; SQL &middot; ETL &middot; PowerShell &middot; BI Platform
+      </p>
+      <h1>
+       Vyacheslav Dmitrov
+      </h1>
+      <p class="hero-role">
+       Senior Qlik Sense Developer
+       <span>
+        /
+       </span>
+       BI Platform Engineer
+      </p>
+      <p class="hero-description">
+       I develop BI applications and data-loading pipelines, integrating 1C, SQL databases, CRM systems, REST APIs and Google Sheets. I work with QVD layers, data models, Section Access, monitoring, PowerShell automation, backup and recovery for Qlik Sense.
+      </p>
+      <div class="hero-actions">
+       <a class="button button-primary" href="#cases">
+        View case studies
+       </a>
+       <a class="button button-secondary" download href="../assets/docs/vyacheslav-dmitrov-resume-en.pdf" rel="noopener noreferrer" target="_blank">
+        Download CV
+       </a>
       </div>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="container hero-container">
-          <div class="hero-content">
-            <p class="section-label">
-              Qlik Sense · Power BI · ETL · QVD · SQL · REST API
-            </p>
-
-            <h1>Vyacheslav Dmitrov</h1>
-
-            <p class="hero-role">
-              Senior Qlik Sense Developer
-              <span>/</span>
-              BI Platform Engineer
-            </p>
-
-            <p class="hero-description">
-              I develop BI applications and data-loading pipelines.
-              I integrate data from 1C, SQL databases, CRM systems,
-              REST APIs and Google Sheets, and build QVD layers,
-              data models, Section Access, monitoring and backup
-              procedures for Qlik Sense.
-            </p>
-
-            <div class="hero-actions">
-              <a
-                class="button button-primary"
-                href="#cases"
-              >
-                View case studies
-              </a>
-
-              <a
-                class="button button-secondary"
-                href="../assets/docs/vyacheslav-dmitrov-resume-en.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                download
-              >
-                Download CV
-              </a>
-            </div>
-
-            <div class="hero-links">
-              <a
-                href="https://career.habr.com/mitro7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Habr Career
-              </a>
-
-              <a
-                href="https://github.com/vyacheslavdmitrov"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-
-              <a
-                href="https://rostov.hh.ru/resume/9851c2deff0911af680039ed1f31436a314e34"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                HeadHunter
-              </a>
-            </div>
-          </div>
-
-          <aside
-            class="hero-card"
-            aria-label="Specialization"
-          >
-            <p class="hero-card-title">
-              Specialization
-            </p>
-
-            <ul class="hero-specialization">
-              <li>Qlik Sense and Power BI applications</li>
-              <li>Qlik Script, ETL and QVD layers</li>
-              <li>1C, SQL, CRM and REST API integrations</li>
-              <li>Section Access and data-level security</li>
-              <li>Reload monitoring and incident diagnostics</li>
-              <li>Qlik Sense backup and recovery</li>
-            </ul>
-
-            <div class="availability">
-              <span
-                class="availability-indicator"
-                aria-hidden="true"
-              ></span>
-
-              Available for project-based work and BI development
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <section
-        class="metrics"
-        aria-label="Main areas of expertise"
-      >
-        <div class="container metrics-grid">
-          <article class="metric-card">
-            <strong>Since 2015</strong>
-            <span>data analysis and reporting</span>
-          </article>
-
-          <article class="metric-card">
-            <strong>Since 2021</strong>
-            <span>BI development</span>
-          </article>
-
-          <article class="metric-card">
-            <strong>Qlik Sense / QVD</strong>
-            <span>primary technology stack</span>
-          </article>
-
-          <article class="metric-card">
-            <strong>Power BI / DAX</strong>
-            <span>management reporting</span>
-          </article>
-
-          <article class="metric-card">
-            <strong>1C / SQL / API</strong>
-            <span>data sources and integrations</span>
-          </article>
-        </div>
-      </section>
-
-      <section
-        class="section about"
-        id="about"
-      >
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-label">
-              Professional profile
-            </p>
-
-            <h2>About me</h2>
-          </div>
-
-          <div class="about-grid">
-            <div class="about-content">
-              <p class="about-lead">
-                I have worked in BI since 2021, developing
-                Qlik Sense and Power BI applications,
-                data-loading scripts, data models and technical
-                mechanisms for BI platform support.
-              </p>
-
-              <p>
-                I integrate data from 1C, SQL databases, CRM systems,
-                REST APIs, Google Sheets and file-based sources.
-                In Qlik Sense, I work with Qlik Script, QVD,
-                Set Analysis, mapping tables and Section Access.
-              </p>
-
-              <p>
-                My responsibilities include requirements analysis,
-                report development, calculation validation,
-                reload support, incident analysis and backup
-                of Qlik Sense components.
-              </p>
-            </div>
-
-            <div class="principles-card">
-              <h3>What I do</h3>
-
-              <ul class="check-list">
-                <li>
-                  Clarify requirements and define business metrics
-                </li>
-
-                <li>
-                  Connect and validate data sources
-                </li>
-
-                <li>
-                  Develop ETL scripts and QVD layers
-                </li>
-
-                <li>
-                  Build data models and application interfaces
-                </li>
-
-                <li>
-                  Configure Section Access
-                </li>
-
-                <li>
-                  Diagnose application and reload errors
-                </li>
-
-                <li>
-                  Develop backup and recovery procedures
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section skills-section"
-        id="skills"
-      >
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-label">
-              Technology stack
-            </p>
-
-            <h2>Skills</h2>
-
-            <p>
-              Technologies and tasks I work with
-              in current and completed projects.
-            </p>
-          </div>
-
-          <div class="skills-grid">
-            <article class="skill-card">
-              <h3>BI Development</h3>
-
-              <div class="tags">
-                <span>Qlik Sense</span>
-                <span>Qlik Script</span>
-                <span>Set Analysis</span>
-                <span>QVD</span>
-                <span>Section Access</span>
-                <span>QlikView</span>
-                <span>Power BI</span>
-                <span>DAX</span>
-                <span>Power Query</span>
-              </div>
-            </article>
-
-            <article class="skill-card">
-              <h3>Data Integration</h3>
-
-              <div class="tags">
-                <span>SQL</span>
-                <span>REST API</span>
-                <span>1C</span>
-                <span>PostgreSQL</span>
-                <span>MySQL</span>
-                <span>MariaDB</span>
-                <span>CRM</span>
-                <span>Google Sheets</span>
-              </div>
-            </article>
-
-            <article class="skill-card">
-              <h3>BI Engineering</h3>
-
-              <div class="tags">
-                <span>ETL</span>
-                <span>Data Modeling</span>
-                <span>Config-driven Extraction</span>
-                <span>Field Mapping</span>
-                <span>Incremental Loads</span>
-                <span>Reload Monitoring</span>
-                <span>Application Optimization</span>
-                <span>Backup</span>
-                <span>Disaster Recovery</span>
-                <span>PowerShell</span>
-              </div>
-            </article>
-
-            <article class="skill-card">
-              <h3>Business Collaboration</h3>
-
-              <div class="tags">
-                <span>Requirements Gathering</span>
-                <span>Metric Definition</span>
-                <span>Technical Specifications</span>
-                <span>Calculation Validation</span>
-                <span>User Acceptance Testing</span>
-                <span>User Training</span>
-                <span>Solution Support</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section cases-section"
-        id="cases"
-      >
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-label">
-              Practical experience
-            </p>
-
-            <h2>Selected case studies</h2>
-
-            <p>
-              The screenshots use demonstration names
-              and synthetic values. The screen structure
-              and solution logic have been preserved.
-            </p>
-          </div>
-
-          <div class="cases-list">
-            <article class="case-card">
-              <div class="case-media">
-                <img
-                  src="../img/cases/powerbi-sales-dashboard.webp"
-                  alt="Anonymized Power BI management report"
-                  width="1600"
-                  height="900"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </div>
-
-              <div class="case-content">
-                <p class="case-number">
-                  Case study 01
-                </p>
-
-                <h3>
-                  Automotive dealership management report
-                  in Power BI
-                </h3>
-
-                <div class="case-section">
-                  <h4>Objective</h4>
-
-                  <p>
-                    Combine sales, target achievement,
-                    revenue and vehicle delivery metrics
-                    in one report, with analysis by period,
-                    branch and business area.
-                  </p>
-                </div>
-
-                <div class="case-section">
-                  <h4>Implementation</h4>
-
-                  <p>
-                    I developed a Power BI report with filters
-                    and interconnected visualizations.
-                    The report includes unit and financial
-                    plan-versus-actual metrics, daily trends,
-                    and breakdowns by brand, model,
-                    dealership and sales manager.
-                  </p>
-                </div>
-
-                <div class="case-result">
-                  <strong>
-                    What is shown in the screenshot
-                  </strong>
-
-                  <p>
-                    Period and organizational filters,
-                    KPI cards, plan-versus-actual indicators,
-                    revenue structure, vehicle delivery trends
-                    and rankings by model and sales manager.
-                  </p>
-                </div>
-
-                <div class="case-stack">
-                  <span>Power BI</span>
-                  <span>DAX</span>
-                  <span>Power Query</span>
-                  <span>Excel</span>
-                  <span>Plan vs Actual</span>
-                  <span>Management Reporting</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="case-card">
-              <div class="case-media">
-                <img
-                  src="../img/cases/config-driven-extract.webp"
-                  alt="Anonymized extraction and field-mapping configuration"
-                  width="1600"
-                  height="900"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </div>
-
-              <div class="case-content">
-                <p class="case-number">
-                  Case study 02
-                </p>
-
-                <h3>
-                  Extraction and field-mapping management
-                  through Google Sheets
-                </h3>
-
-                <div class="case-section">
-                  <h4>Objective</h4>
-
-                  <p>
-                    Move table lists, loading parameters
-                    and field-renaming rules from individual
-                    Qlik scripts into a centralized
-                    configuration file.
-                  </p>
-                </div>
-
-                <div class="case-section">
-                  <h4>Implementation</h4>
-
-                  <p>
-                    The Qlik script reads configuration sheets
-                    stored in Google Sheets. An extraction flag
-                    determines whether a table is loaded.
-                    Additional parameters define the processing
-                    stream and periodic or incremental loading
-                    scenario. The Fields sheet stores mappings
-                    between technical field names and
-                    user-facing labels.
-                  </p>
-                </div>
-
-                <div class="case-result">
-                  <strong>
-                    What is shown in the screenshot
-                  </strong>
-
-                  <p>
-                    Source and table configuration,
-                    extraction flags, incremental-load parameters,
-                    prefixes, table types and field-renaming rules.
-                  </p>
-                </div>
-
-                <div class="case-stack">
-                  <span>Google Sheets</span>
-                  <span>Qlik Script</span>
-                  <span>Config-driven Extraction</span>
-                  <span>Field Mapping</span>
-                  <span>Incremental Load</span>
-                  <span>QVD</span>
-                </div>
-              </div>
-            </article>
-
-              <article class="case-card">
-              <div class="case-media">
-                <img
-                  src="../img/cases/qlik-reload-monitoring.png"
-                  alt="Demonstration dashboard for BI reload monitoring and data freshness control"
-                  width="1672"
-                  height="941"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </div>
-
-              <div class="case-content">
-                <p class="case-number">
-                  Case study 03
-                </p>
-
-                <h3>
-                  BI reload monitoring
-                  and data freshness control
-                </h3>
-
-                <div class="case-section">
-                  <h4>Objective</h4>
-
-                  <p>
-                    Consolidate information about data-loading tasks
-                    in one technical interface, including execution
-                    status, last reload time, duration, processed
-                    row count and data freshness.
-                  </p>
-                </div>
-
-                <div class="case-section">
-                  <h4>Implementation</h4>
-
-                  <p>
-                    Designed a monitoring structure for data streams
-                    and reload tasks. Each task can be reviewed by
-                    execution result, duration, loaded row count,
-                    last successful update and deviation from
-                    its expected schedule.
-                  </p>
-
-                  <p>
-                    Additional views provide analysis of reload
-                    duration, status distribution and changes
-                    in operational metrics over time.
-                  </p>
-                </div>
-
-                <div class="case-result">
-                  <strong>
-                    What is shown in the image
-                  </strong>
-
-                  <p>
-                    KPIs for successful, failed and overdue reloads,
-                    average duration, processed row count,
-                    status distribution, reload trends
-                    and a detailed task-status table.
-                  </p>
-                </div>
-
-                <div class="case-stack">
-                  <span>Qlik Sense</span>
-                  <span>Reload Monitoring</span>
-                  <span>ETL Monitoring</span>
-                  <span>Data Freshness</span>
-                  <span>Data Quality</span>
-                  <span>Incident Diagnostics</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="case-card">
-              <div class="case-media">
-                <img
-                  src="../img/cases/qlik-backup-recovery.png"
-                  alt="Demonstration architecture of Qlik Sense backup and recovery processes"
-                  width="1672"
-                  height="941"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </div>
-
-              <div class="case-content">
-                <p class="case-number">
-                  Case study 04
-                </p>
-
-                <h3>
-                  Qlik Sense backup
-                  and recovery framework
-                </h3>
-
-                <div class="case-section">
-                  <h4>Objective</h4>
-
-                  <p>
-                    Combine backup of critical Qlik Sense components
-                    into a controlled process and define the sequence
-                    of actions required to restore the platform
-                    after a critical failure.
-                  </p>
-                </div>
-
-                <div class="case-section">
-                  <h4>Implementation</h4>
-
-                  <p>
-                    Developed PowerShell scripts for backing up
-                    PostgreSQL system databases, QSShare,
-                    certificates, external directories
-                    and configuration files.
-                  </p>
-
-                  <p>
-                    Added operation logging, result validation,
-                    current and archived backup storage,
-                    retention rules and a structure suitable
-                    for scheduled execution.
-                  </p>
-
-                  <p>
-                    Prepared a documented recovery sequence
-                    covering databases, shared storage,
-                    certificates, external files
-                    and service validation.
-                  </p>
-                </div>
-
-                <div class="case-result">
-                  <strong>
-                    What is shown in the image
-                  </strong>
-
-                  <p>
-                    Backup sources, the PowerShell automation layer,
-                    backup-storage structure, retention policy,
-                    recovery sequence and an example execution log.
-                  </p>
-                </div>
-
-                <div class="case-stack">
-                  <span>Qlik Sense</span>
-                  <span>PostgreSQL</span>
-                  <span>PowerShell</span>
-                  <span>QSShare</span>
-                  <span>Backup</span>
-                  <span>Disaster Recovery</span>
-                </div>
-              </div>
-             </article>
-
-            <article class="case-card">
-              <!-- Case study 03 -->
-            </article>
-
-            <article class="case-card">
-              <!-- Case study 04 -->
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section architecture-section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-label">
-              Development workflow
-            </p>
-
-            <h2>BI solution workflow</h2>
-
-            <p>
-              A typical set of tasks, from connecting
-              a data source to publishing and supporting
-              a BI application.
-            </p>
-          </div>
-
-          <div class="architecture-flow">
-            <article class="architecture-step">
-              <span class="architecture-number">01</span>
-              <h3>Sources</h3>
-              <p>1C, CRM, SQL, REST API and Google Sheets</p>
-            </article>
-
-            <span
-              class="architecture-arrow"
-              aria-hidden="true"
-            >
-              →
-            </span>
-
-            <article class="architecture-step">
-              <span class="architecture-number">02</span>
-              <h3>Extraction</h3>
-              <p>Connectors, SQL queries, REST APIs and files</p>
-            </article>
-
-            <span
-              class="architecture-arrow"
-              aria-hidden="true"
-            >
-              →
-            </span>
-
-            <article class="architecture-step">
-              <span class="architecture-number">03</span>
-              <h3>QVD layers</h3>
-              <p>Storage, transformations and business rules</p>
-            </article>
-
-            <span
-              class="architecture-arrow"
-              aria-hidden="true"
-            >
-              →
-            </span>
-
-            <article class="architecture-step">
-              <span class="architecture-number">04</span>
-              <h3>BI applications</h3>
-              <p>Data models, metrics and visualizations</p>
-            </article>
-
-            <span
-              class="architecture-arrow"
-              aria-hidden="true"
-            >
-              →
-            </span>
-
-            <article class="architecture-step">
-              <span class="architecture-number">05</span>
-              <h3>Access</h3>
-              <p>Section Access, roles and organizational scope</p>
-            </article>
-          </div>
-
-          <div class="platform-layer">
-            <strong>
-              Platform operations
-            </strong>
-
-            <div class="tags">
-              <span>Reload Monitoring</span>
-              <span>Logs</span>
-              <span>Data Validation</span>
-              <span>Backup</span>
-              <span>Recovery</span>
-              <span>Documentation</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section experience-section"
-        id="experience"
-      >
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-label">
-              Career path
-            </p>
-
-            <h2>Experience</h2>
-          </div>
-
-          <div class="timeline">
-            <article class="timeline-item">
-              <div class="timeline-period">
-                2021 — Present
-              </div>
-
-              <div class="timeline-content">
-                <h3>
-                  BI Developer / BI Analyst
-                </h3>
-
-                <p class="timeline-company">
-                  FRESH AUTO
-                </p>
-
-                <p>
-                  Development and support of Qlik Sense
-                  and Power BI applications for sales,
-                  service, finance, marketing
-                  and other business units.
-                </p>
-
-                <ul>
-                  <li>
-                    Qlik Sense, Power BI and data models
-                  </li>
-
-                  <li>
-                    Integrations with 1C, SQL, CRM and REST APIs
-                  </li>
-
-                  <li>
-                    ETL scripts and QVD layers
-                  </li>
-
-                  <li>
-                    Section Access and data access controls
-                  </li>
-
-                  <li>
-                    Reload monitoring and diagnostics
-                  </li>
-
-                  <li>
-                    Backup of Qlik Sense components
-                  </li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-period">
-                2020
-              </div>
-
-              <div class="timeline-content">
-                <h3>Software Development Intern</h3>
-
-                <p class="timeline-company">
-                  Cetera
-                </p>
-
-                <p>
-                  Front-end layout, bug fixing
-                  and website support using WordPress,
-                  Joomla, CeteraCMS and 1C-Bitrix.
-                </p>
-              </div>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-period">
-                2015 — 2020
-              </div>
-
-              <div class="timeline-content">
-                <h3>
-                  Analytics Department Specialist
-                </h3>
-
-                <p class="timeline-company">
-                  DTEK
-                </p>
-
-                <p>
-                  Work with 1C, Excel, Power Query and Power Pivot,
-                  preparation of recurring reports,
-                  calculation of operational metrics
-                  and user training.
-                </p>
-
-                <ul>
-                  <li>
-                    1C administration and data control
-                  </li>
-
-                  <li>
-                    Excel, Power Query and Power Pivot
-                  </li>
-
-                  <li>
-                    Analytical reporting
-                  </li>
-
-                  <li>
-                    User training
-                  </li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section education-section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-label">
-              Education
-            </p>
-
-            <h2>Education and training</h2>
-          </div>
-
-          <div class="education-grid">
-            <article class="education-card">
-              <span class="education-year">
-                2018
-              </span>
-
-              <h3>Software Engineering</h3>
-
-              <p>
-                National Mining University
-              </p>
-            </article>
-
-            <article class="education-card">
-              <span class="education-year">
-                2023
-              </span>
-
-              <h3>
-                Building Analytical Reports
-                with Qlik Sense
-              </h3>
-
-              <p>
-                Specialist Training Center
-                at Bauman Moscow State Technical University
-              </p>
-            </article>
-
-            <article class="education-card">
-              <span class="education-year">
-                2023
-              </span>
-
-              <h3>
-                Power BI: Development and Visualization
-              </h3>
-
-              <p>
-                Eduson Academy
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="contact-section"
-        id="contacts"
-      >
-        <div class="container contact-container">
-          <div>
-            <p class="section-label">
-              Contact
-            </p>
-
-            <h2>Discuss a BI project</h2>
-
-            <p>
-              I am available for project-based work involving
-              Qlik Sense, Power BI, data-source integrations,
-              BI solution support and platform development.
-            </p>
-          </div>
-
-          <div class="contact-actions">
-            <a
-              class="button button-primary"
-              href="mailto:vyacheslavdmitrov@gmail.com"
-            >
-              Send an email
-            </a>
-
-            <a
-              class="contact-email"
-              href="mailto:vyacheslavdmitrov@gmail.com"
-            >
-              vyacheslavdmitrov@gmail.com
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="page-footer">
-      <div class="container footer-container">
-        <div>
-          <strong>
-            Vyacheslav Dmitrov
-          </strong>
-
-          <p>
-            Senior Qlik Sense Developer / BI Platform Engineer
-          </p>
-        </div>
-
-        <div class="footer-links">
-          <a
-            href="https://career.habr.com/mitro7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Habr Career
-          </a>
-
-          <a
-            href="https://github.com/vyacheslavdmitrov"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-
-          <a
-            href="https://rostov.hh.ru/resume/9851c2deff0911af680039ed1f31436a314e34"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            HeadHunter
-          </a>
-
-          <a
-            href="../"
-            lang="ru"
-            hreflang="ru"
-          >
-            Русская версия
-          </a>
-
-          <a href="mailto:vyacheslavdmitrov@gmail.com">
-            Email
-          </a>
-        </div>
-
-        <p class="copyright">
-          © 2026 Vyacheslav Dmitrov
+      <div class="hero-links">
+       <a href="https://career.habr.com/mitro7" rel="noopener noreferrer" target="_blank">
+        Habr Career
+       </a>
+       <a href="https://github.com/vyacheslavdmitrov" rel="noopener noreferrer" target="_blank">
+        GitHub
+       </a>
+       <a href="https://rostov.hh.ru/resume/9851c2deff0911af680039ed1f31436a314e34" rel="noopener noreferrer" target="_blank">
+        HeadHunter
+       </a>
+      </div>
+     </div>
+     <aside aria-label="Specialization" class="hero-card">
+      <p class="hero-card-title">
+       Specialization
+      </p>
+      <ul class="hero-specialization">
+       <li>
+        Qlik Sense and Power BI applications
+       </li>
+       <li>
+        Qlik Script, ETL, QVD layers and data models
+       </li>
+       <li>
+        Integrations with 1C, SQL, CRM and REST APIs
+       </li>
+       <li>
+        Section Access and data-level security
+       </li>
+       <li>
+        Reload monitoring, Data Quality and incident diagnostics
+       </li>
+       <li>
+        PowerShell automation, backup and recovery for Qlik Sense
+       </li>
+      </ul>
+      <div class="availability">
+       <span aria-hidden="true" class="availability-indicator">
+       </span>
+       Available for project-based work and BI development
+      </div>
+     </aside>
+    </div>
+   </section>
+   <section aria-label="Main areas of expertise" class="metrics">
+    <div class="container metrics-grid">
+     <article class="metric-card">
+      <strong>
+       Since 2015
+      </strong>
+      <span>
+       data analysis and reporting automation
+      </span>
+     </article>
+     <article class="metric-card">
+      <strong>
+       Since 2021
+      </strong>
+      <span>
+       BI development and solution support
+      </span>
+     </article>
+     <article class="metric-card">
+      <strong>
+       Qlik Sense / QVD
+      </strong>
+      <span>
+       applications, data models and access control
+      </span>
+     </article>
+     <article class="metric-card">
+      <strong>
+       Power BI / DAX
+      </strong>
+      <span>
+       management analytics and visualization
+      </span>
+     </article>
+     <article class="metric-card">
+      <strong>
+       1C / SQL / REST API
+      </strong>
+      <span>
+       data sources and integrations
+      </span>
+     </article>
+     <article class="metric-card">
+      <strong>
+       PowerShell / PostgreSQL
+      </strong>
+      <span>
+       automation, backup and recovery
+      </span>
+     </article>
+    </div>
+   </section>
+   <section class="section about" id="about">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Professional profile
+      </p>
+      <h2>
+       About
+      </h2>
+     </div>
+     <div class="about-grid">
+      <div class="about-content">
+       <p class="about-lead">
+        I have worked with data analytics since 2015 and with BI since 2021. I develop Qlik Sense and Power BI applications, data-loading scripts, data models and technical mechanisms for BI platform support.
+       </p>
+       <p>
+        I integrate data from 1C, SQL databases, CRM systems, REST APIs, Google Sheets and file-based sources. In Qlik Sense, I work with Qlik Script, QVD, Set Analysis, mapping tables, incremental loads and Section Access.
+       </p>
+       <p>
+        In addition to report development, I handle reload monitoring, data-freshness checks, incident analysis, application optimization and PowerShell automation for backup and recovery of Qlik Sense components.
+       </p>
+      </div>
+      <div class="principles-card">
+       <h3>
+        What I do
+       </h3>
+       <ul class="check-list">
+        <li>
+         Clarify requirements, metrics and calculation rules
+        </li>
+        <li>
+         Connect and validate data sources
+        </li>
+        <li>
+         Develop ETL scripts, QVD layers and data models
+        </li>
+        <li>
+         Build Qlik Sense and Power BI application interfaces
+        </li>
+        <li>
+         Configure Section Access and role-based access
+        </li>
+        <li>
+         Monitor reloads, data freshness and data quality
+        </li>
+        <li>
+         Diagnose incidents and optimize applications
+        </li>
+        <li>
+         Automate backup, retention and recovery with PowerShell scripts
+        </li>
+        <li>
+         Document solutions and train users
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section skills-section" id="skills">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Technology stack
+      </p>
+      <h2>
+       Skills
+      </h2>
+      <p>
+       Technologies and tasks I work with in current and completed projects.
+      </p>
+     </div>
+     <div class="skills-grid">
+      <article class="skill-card">
+       <h3>
+        BI Development
+       </h3>
+       <div class="tags">
+        <span>
+         Qlik Sense
+        </span>
+        <span>
+         QlikView
+        </span>
+        <span>
+         Qlik Script
+        </span>
+        <span>
+         Set Analysis
+        </span>
+        <span>
+         QVD
+        </span>
+        <span>
+         Section Access
+        </span>
+        <span>
+         Power BI
+        </span>
+        <span>
+         DAX
+        </span>
+        <span>
+         Power Query
+        </span>
+        <span>
+         Power Pivot
+        </span>
+        <span>
+         Excel
+        </span>
+       </div>
+      </article>
+      <article class="skill-card">
+       <h3>
+        Data Integration
+       </h3>
+       <div class="tags">
+        <span>
+         SQL
+        </span>
+        <span>
+         REST API
+        </span>
+        <span>
+         1C
+        </span>
+        <span>
+         PostgreSQL
+        </span>
+        <span>
+         MySQL
+        </span>
+        <span>
+         MariaDB
+        </span>
+        <span>
+         CRM
+        </span>
+        <span>
+         Google Sheets
+        </span>
+        <span>
+         File-based sources
+        </span>
+       </div>
+      </article>
+      <article class="skill-card">
+       <h3>
+        Data Engineering
+       </h3>
+       <div class="tags">
+        <span>
+         ETL
+        </span>
+        <span>
+         Data Modeling
+        </span>
+        <span>
+         QVD Layers
+        </span>
+        <span>
+         Data Marts
+        </span>
+        <span>
+         Config-driven extraction
+        </span>
+        <span>
+         Field Mapping
+        </span>
+        <span>
+         Incremental Loads
+        </span>
+        <span>
+         Data Quality
+        </span>
+       </div>
+      </article>
+      <article class="skill-card">
+       <h3>
+        Platform Operations & Automation
+       </h3>
+       <div class="tags">
+        <span>
+         PowerShell
+        </span>
+        <span>
+         Windows Task Scheduler
+        </span>
+        <span>
+         Qlik Sense Administration
+        </span>
+        <span>
+         PostgreSQL Backup
+        </span>
+        <span>
+         QSShare
+        </span>
+        <span>
+         Qlik Certificates
+        </span>
+        <span>
+         Logging
+        </span>
+        <span>
+         Retention
+        </span>
+        <span>
+         Restore Procedures
+        </span>
+        <span>
+         Git
+        </span>
+       </div>
+      </article>
+      <article class="skill-card">
+       <h3>
+        Reliability & Performance
+       </h3>
+       <div class="tags">
+        <span>
+         Reload Monitoring
+        </span>
+        <span>
+         Data Freshness
+        </span>
+        <span>
+         Incident Diagnostics
+        </span>
+        <span>
+         Root Cause Analysis
+        </span>
+        <span>
+         Application Optimization
+        </span>
+        <span>
+         Disk Space Monitoring
+        </span>
+        <span>
+         Access Management
+        </span>
+        <span>
+         Documentation
+        </span>
+       </div>
+      </article>
+      <article class="skill-card">
+       <h3>
+        Business Collaboration
+       </h3>
+       <div class="tags">
+        <span>
+         Requirements Gathering
+        </span>
+        <span>
+         KPI Definition
+        </span>
+        <span>
+         Technical Specifications
+        </span>
+        <span>
+         Calculation Validation
+        </span>
+        <span>
+         User Acceptance Testing
+        </span>
+        <span>
+         Workshops
+        </span>
+        <span>
+         User Training
+        </span>
+        <span>
+         Cross-functional Collaboration
+        </span>
+        <span>
+         Solution Support
+        </span>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section cases-section" id="cases">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Practical experience
+      </p>
+      <h2>
+       Selected case studies
+      </h2>
+      <p>
+       The screenshots use demonstration names and synthetic values. The screen structure and solution logic have been preserved.
+      </p>
+     </div>
+     <div class="cases-list">
+      <article class="case-card">
+       <div class="case-media">
+        <img alt="Anonymized Power BI management report" decoding="async" height="900" loading="lazy" src="../img/cases/powerbi-sales-dashboard.webp" width="1600">
+       </div>
+       <div class="case-content">
+        <p class="case-number">
+         Case study 01
         </p>
+        <h3>
+         Automotive dealership management report in Power BI
+        </h3>
+        <div class="case-section">
+         <h4>
+          Objective
+         </h4>
+         <p>
+          Combine sales, target achievement, revenue and vehicle-delivery metrics in one report, with analysis by period, branch and business area.
+         </p>
+        </div>
+        <div class="case-section">
+         <h4>
+          Implementation
+         </h4>
+         <p>
+          Developed a Power BI report with filters and interconnected visualizations. The report includes unit and financial plan-versus-actual metrics, daily trends, and breakdowns by brand, model, dealership and sales manager.
+         </p>
+        </div>
+        <div class="case-result">
+         <strong>
+          What is shown in the screenshot
+         </strong>
+         <p>
+          Period and organizational filters, KPI cards, plan-versus-actual indicators, revenue structure, vehicle-delivery trends and rankings by model and sales manager.
+         </p>
+        </div>
+        <div class="case-stack">
+         <span>
+          Power BI
+         </span>
+         <span>
+          DAX
+         </span>
+         <span>
+          Power Query
+         </span>
+         <span>
+          Excel
+         </span>
+         <span>
+          Plan vs Actual
+         </span>
+         <span>
+          Management Reporting
+         </span>
+        </div>
+       </div>
+      </article>
+      <article class="case-card">
+       <div class="case-media">
+        <img alt="Anonymized extraction and field-mapping configuration" decoding="async" height="900" loading="lazy" src="../img/cases/config-driven-extract.webp" width="1600">
+       </div>
+       <div class="case-content">
+        <p class="case-number">
+         Case study 02
+        </p>
+        <h3>
+         Extraction and field-mapping management through Google Sheets
+        </h3>
+        <div class="case-section">
+         <h4>
+          Objective
+         </h4>
+         <p>
+          Move table lists, loading parameters and field-renaming rules from individual Qlik scripts into a centralized configuration file.
+         </p>
+        </div>
+        <div class="case-section">
+         <h4>
+          Implementation
+         </h4>
+         <p>
+          The Qlik script reads configuration sheets stored in Google Sheets. An extraction flag determines whether a table is loaded. Additional parameters define the processing stream and periodic or incremental loading scenario. The Fields sheet stores mappings between technical field names and user-facing labels.
+         </p>
+        </div>
+        <div class="case-result">
+         <strong>
+          What is shown in the screenshot
+         </strong>
+         <p>
+          Source and table configuration, extraction flags, incremental-load parameters, prefixes, table types and field-renaming rules.
+         </p>
+        </div>
+        <div class="case-stack">
+         <span>
+          Google Sheets
+         </span>
+         <span>
+          Qlik Script
+         </span>
+         <span>
+          Config-driven extraction
+         </span>
+         <span>
+          Field Mapping
+         </span>
+         <span>
+          Incremental Load
+         </span>
+         <span>
+          QVD
+         </span>
+        </div>
+       </div>
+      </article>
+      <article class="case-card">
+       <div class="case-media">
+        <img alt="Demonstration dashboard for BI reload monitoring and data freshness control" decoding="async" height="941" loading="lazy" src="../img/cases/qlik-reload-monitoring.png" width="1672">
+       </div>
+       <div class="case-content">
+        <p class="case-number">
+         Case study 03
+        </p>
+        <h3>
+         Reload monitoring and data freshness control
+        </h3>
+        <div class="case-section">
+         <h4>
+          Objective
+         </h4>
+         <p>
+          Consolidate information about data-loading tasks in one technical interface, including execution status, last reload time, duration, processed row count and data freshness.
+         </p>
+        </div>
+        <div class="case-section">
+         <h4>
+          Implementation
+         </h4>
+         <p>
+          Designed a monitoring structure for data streams and reload tasks. Each task can be reviewed by execution result, duration, loaded row count, last successful update and deviation from its expected schedule.
+         </p>
+         <p>
+          Additional views provide analysis of reload duration, status distribution and changes in operational metrics over time.
+         </p>
+        </div>
+        <div class="case-result">
+         <strong>
+          What is shown in the image
+         </strong>
+         <p>
+          KPIs for successful, failed and overdue reloads, average duration, processed row count, status distribution, reload trends and a detailed task-status table.
+         </p>
+        </div>
+        <div class="case-stack">
+         <span>
+          Qlik Sense
+         </span>
+         <span>
+          Reload Monitoring
+         </span>
+         <span>
+          ETL Monitoring
+         </span>
+         <span>
+          Data Freshness
+         </span>
+         <span>
+          Data Quality
+         </span>
+         <span>
+          Incident Diagnostics
+         </span>
+        </div>
+       </div>
+      </article>
+      <article class="case-card">
+       <div class="case-media">
+        <img alt="Demonstration architecture of Qlik Sense backup and recovery processes" decoding="async" height="941" loading="lazy" src="../img/cases/qlik-backup-recovery.png" width="1672">
+       </div>
+       <div class="case-content">
+        <p class="case-number">
+         Case study 04
+        </p>
+        <h3>
+         Qlik Sense backup and recovery framework
+        </h3>
+        <div class="case-section">
+         <h4>
+          Objective
+         </h4>
+         <p>
+          Combine backup of critical Qlik Sense components into a controlled process and define the sequence of actions required to restore the platform after a failure.
+         </p>
+        </div>
+        <div class="case-section">
+         <h4>
+          Implementation
+         </h4>
+         <p>
+          Developed PowerShell scripts for backing up PostgreSQL system databases, QSShare, certificates, external directories and configuration files.
+         </p>
+         <p>
+          Added operation logging, result validation, current and archived backup storage, retention rules and scheduled execution through Windows Task Scheduler.
+         </p>
+         <p>
+          Prepared a structured recovery procedure covering databases, shared storage, certificates, external files and service validation.
+         </p>
+        </div>
+        <div class="case-result">
+         <strong>
+          What is shown in the image
+         </strong>
+         <p>
+          Backup sources, the PowerShell automation layer, backup-storage structure, retention policy, recovery sequence and an example execution log.
+         </p>
+        </div>
+        <div class="case-stack">
+         <span>
+          Qlik Sense
+         </span>
+         <span>
+          PostgreSQL
+         </span>
+         <span>
+          PowerShell
+         </span>
+         <span>
+          Task Scheduler
+         </span>
+         <span>
+          QSShare
+         </span>
+         <span>
+          Backup
+         </span>
+         <span>
+          Disaster Recovery
+         </span>
+        </div>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section architecture-section">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Development workflow
+      </p>
+      <h2>
+       BI solution workflow
+      </h2>
+      <p>
+       A typical set of tasks, from connecting a data source to publishing and supporting a BI application.
+      </p>
+     </div>
+     <div class="architecture-flow">
+      <article class="architecture-step">
+       <span class="architecture-number">
+        01
+       </span>
+       <h3>
+        Sources
+       </h3>
+       <p>
+        1C, CRM, SQL, REST API and Google Sheets
+       </p>
+      </article>
+      <span aria-hidden="true" class="architecture-arrow">
+       &rarr;
+      </span>
+      <article class="architecture-step">
+       <span class="architecture-number">
+        02
+       </span>
+       <h3>
+        Extraction
+       </h3>
+       <p>
+        Connectors, SQL queries, REST APIs and files
+       </p>
+      </article>
+      <span aria-hidden="true" class="architecture-arrow">
+       &rarr;
+      </span>
+      <article class="architecture-step">
+       <span class="architecture-number">
+        03
+       </span>
+       <h3>
+        QVD Layers
+       </h3>
+       <p>
+        Storage, transformations and business rules
+       </p>
+      </article>
+      <span aria-hidden="true" class="architecture-arrow">
+       &rarr;
+      </span>
+      <article class="architecture-step">
+       <span class="architecture-number">
+        04
+       </span>
+       <h3>
+        BI applications
+       </h3>
+       <p>
+        Data models, metrics and visualizations
+       </p>
+      </article>
+      <span aria-hidden="true" class="architecture-arrow">
+       &rarr;
+      </span>
+      <article class="architecture-step">
+       <span class="architecture-number">
+        05
+       </span>
+       <h3>
+        Access
+       </h3>
+       <p>
+        Section Access, roles and organizational scope
+       </p>
+      </article>
+     </div>
+     <div class="platform-layer">
+      <strong>
+       Platform operations
+      </strong>
+      <div class="tags">
+       <span>
+        Reload Monitoring
+       </span>
+       <span>
+        Data Quality
+       </span>
+       <span>
+        Logging
+       </span>
+       <span>
+        PowerShell
+       </span>
+       <span>
+        Backup
+       </span>
+       <span>
+        Recovery
+       </span>
+       <span>
+        Retention
+       </span>
+       <span>
+        Documentation
+       </span>
       </div>
-    </footer>
-  </body>
+     </div>
+    </div>
+   </section>
+   <section class="section experience-section" id="experience">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Career path
+      </p>
+      <h2>
+       Experience
+      </h2>
+     </div>
+     <div class="timeline">
+      <article class="timeline-item">
+       <div class="timeline-period">
+        2021 &mdash; Present
+       </div>
+       <div class="timeline-content">
+        <h3>
+         BI Developer / BI Analyst
+        </h3>
+        <p class="timeline-company">
+         FRESH AUTO
+        </p>
+        <p>
+         Development, integration and support of Qlik Sense and Power BI applications for sales, service, finance, marketing and other business areas.
+        </p>
+        <ul>
+         <li>
+          Qlik Sense, Power BI, data models and visualization
+         </li>
+         <li>
+          Integrations with 1C, SQL, CRM, REST APIs and Google Sheets
+         </li>
+         <li>
+          ETL scripts, QVD layers and incremental loads
+         </li>
+         <li>
+          Section Access and data-level security
+         </li>
+         <li>
+          Monitoring, Data Quality and incident diagnostics
+         </li>
+         <li>
+          PowerShell automation for backup and recovery
+         </li>
+         <li>
+          Solution documentation and business collaboration
+         </li>
+        </ul>
+       </div>
+      </article>
+      <article class="timeline-item">
+       <div class="timeline-period">
+        2020
+       </div>
+       <div class="timeline-content">
+        <h3>
+         Software Development Intern
+        </h3>
+        <p class="timeline-company">
+         Cetera
+        </p>
+        <p>
+         Front-end layout, bug fixing and website support using WordPress, Joomla, CeteraCMS and 1C-Bitrix.
+        </p>
+       </div>
+      </article>
+      <article class="timeline-item">
+       <div class="timeline-period">
+        2015 &mdash; 2020
+       </div>
+       <div class="timeline-content">
+        <h3>
+         Analytics Department Specialist
+        </h3>
+        <p class="timeline-company">
+         DTEK
+        </p>
+        <p>
+         Work with 1C, Excel, Power Query and Power Pivot, preparation of recurring reports, calculation of operational metrics and user training.
+        </p>
+        <ul>
+         <li>
+          1C administration and data control
+         </li>
+         <li>
+          Excel, Power Query and Power Pivot
+         </li>
+         <li>
+          Analytical reporting
+         </li>
+         <li>
+          User Training
+         </li>
+        </ul>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section education-section">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Education
+      </p>
+      <h2>
+       Education and training
+      </h2>
+     </div>
+     <div class="education-grid">
+      <article class="education-card">
+       <span class="education-year">
+        2018
+       </span>
+       <h3>
+        Software Engineering
+       </h3>
+       <p>
+        National Mining University
+       </p>
+      </article>
+      <article class="education-card">
+       <span class="education-year">
+        2023
+       </span>
+       <h3>
+        Building Analytical Reports with Qlik Sense
+       </h3>
+       <p>
+        Specialist Training Center at Bauman Moscow State Technical University
+       </p>
+      </article>
+      <article class="education-card">
+       <span class="education-year">
+        2023
+       </span>
+       <h3>
+        Power BI: Development and Visualization
+       </h3>
+       <p>
+        Eduson Academy
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="contact-section" id="contacts">
+    <div class="container contact-container">
+     <div>
+      <p class="section-label">
+       Contact
+      </p>
+      <h2>
+       Discuss a BI project
+      </h2>
+      <p>
+       Available for remote project-based work involving Qlik Sense, Power BI, data-source integrations, PowerShell automation, BI solution support and reliability improvements.
+      </p>
+     </div>
+     <div class="contact-actions">
+      <a class="button button-primary" href="mailto:vyacheslavdmitrov@gmail.com">
+       Send an email
+      </a>
+      <a class="contact-email" href="mailto:vyacheslavdmitrov@gmail.com">
+       vyacheslavdmitrov@gmail.com
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="page-footer">
+   <div class="container footer-container">
+    <div>
+     <strong>
+      Vyacheslav Dmitrov
+     </strong>
+     <p>
+      Senior Qlik Sense Developer / BI Platform Engineer
+     </p>
+    </div>
+    <div class="footer-links">
+     <a href="https://career.habr.com/mitro7" rel="noopener noreferrer" target="_blank">
+      Habr Career
+     </a>
+     <a href="https://github.com/vyacheslavdmitrov" rel="noopener noreferrer" target="_blank">
+      GitHub
+     </a>
+     <a href="https://rostov.hh.ru/resume/9851c2deff0911af680039ed1f31436a314e34" rel="noopener noreferrer" target="_blank">
+      HeadHunter
+     </a>
+     <a href="../" hreflang="ru" lang="ru">
+      Russian version
+     </a>
+     <a href="mailto:vyacheslavdmitrov@gmail.com">
+      Email
+     </a>
+    </div>
+    <p class="copyright">
+     &copy; 2026 Vyacheslav Dmitrov
+    </p>
+   </div>
+  </footer>
+ </body>
 </html>
