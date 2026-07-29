@@ -1,47 +1,71 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>
-      Вячеслав Дмитров — Senior Qlik Sense Developer / BI Platform Engineer
+      Vyacheslav Dmitrov — Senior Qlik Sense Developer / BI Platform Engineer
     </title>
 
     <meta
       name="description"
-      content="Портфолио Вячеслава Дмитрова: Qlik Sense, Power BI, ETL, QVD, SQL, REST API, интеграции с 1С, Section Access, мониторинг и резервное копирование BI-платформы."
+      content="Portfolio of Vyacheslav Dmitrov: Qlik Sense and Power BI development, ETL, QVD, SQL, REST API, 1C integrations, Section Access, monitoring, backup and BI platform support."
     >
 
-    <meta name="author" content="Вячеслав Дмитров">
+    <meta name="author" content="Vyacheslav Dmitrov">
     <meta name="theme-color" content="#0f172a">
 
     <link
       rel="canonical"
+      href="https://vyacheslavdmitrov.github.io/portfolio/eng/"
+    >
+
+    <link
+      rel="alternate"
+      hreflang="ru"
       href="https://vyacheslavdmitrov.github.io/portfolio/"
+    >
+
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://vyacheslavdmitrov.github.io/portfolio/eng/"
+    >
+
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://vyacheslavdmitrov.github.io/portfolio/eng/"
     >
 
     <meta
       property="og:title"
-      content="Вячеслав Дмитров — Senior Qlik Sense Developer"
+      content="Vyacheslav Dmitrov — Senior Qlik Sense Developer"
     >
 
     <meta
       property="og:description"
-      content="Qlik Sense, Power BI, ETL, QVD, SQL, REST API, 1С, Section Access и эксплуатация BI-платформы."
+      content="Qlik Sense, Power BI, ETL, QVD, SQL, REST API, 1C integrations and BI platform engineering."
     >
 
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="ru_RU">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ru_RU">
 
     <meta
       property="og:url"
-      content="https://vyacheslavdmitrov.github.io/portfolio/"
+      content="https://vyacheslavdmitrov.github.io/portfolio/eng/"
     >
 
     <meta
       property="og:image"
-      content="https://vyacheslavdmitrov.github.io/portfolio/img/cases/powerbi-sales-dashboard.webp"
+      content="https://vyacheslavdmitrov.github.io/portfolio/assets/img/cases/powerbi-sales-dashboard.webp"
+    >
+
+    <meta
+      property="og:image:alt"
+      content="Power BI management dashboard from the portfolio of Vyacheslav Dmitrov"
     >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,7 +81,7 @@
       rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
 
   <body>
@@ -66,28 +90,38 @@
         <a
           class="logo"
           href="#top"
-          aria-label="Перейти в начало страницы"
+          aria-label="Go to the top of the page"
         >
-          <span class="logo-name">Вячеслав Дмитров</span>
+          <span class="logo-name">Vyacheslav Dmitrov</span>
           <span class="logo-role">Qlik Sense / BI</span>
         </a>
 
         <nav
           class="main-navigation"
-          aria-label="Основная навигация"
+          aria-label="Main navigation"
         >
-          <a href="#about">Обо мне</a>
-          <a href="#skills">Компетенции</a>
-          <a href="#cases">Кейсы</a>
-          <a href="#experience">Опыт</a>
-          <a href="#contacts">Контакты</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#cases">Case studies</a>
+          <a href="#experience">Experience</a>
+          <a href="#contacts">Contact</a>
         </nav>
+
+        <a
+          class="button button-small button-outline"
+          href="../"
+          lang="ru"
+          hreflang="ru"
+          aria-label="Open the Russian version"
+        >
+          RU
+        </a>
 
         <a
           class="button button-small button-outline"
           href="mailto:vyacheslavdmitrov@gmail.com"
         >
-          Связаться
+          Contact me
         </a>
       </div>
     </header>
@@ -100,7 +134,7 @@
               Qlik Sense · Power BI · ETL · QVD · SQL · REST API
             </p>
 
-            <h1>Вячеслав Дмитров</h1>
+            <h1>Vyacheslav Dmitrov</h1>
 
             <p class="hero-role">
               Senior Qlik Sense Developer
@@ -109,10 +143,11 @@
             </p>
 
             <p class="hero-description">
-              Разрабатываю BI-приложения и загрузочные контуры:
-              подключаю 1С, SQL-базы, CRM, REST API и Google Sheets;
-              создаю QVD-слои, модели данных, Section Access,
-              мониторинг и резервное копирование Qlik Sense.
+              I develop BI applications and data-loading pipelines.
+              I integrate data from 1C, SQL databases, CRM systems,
+              REST APIs and Google Sheets, and build QVD layers,
+              data models, Section Access, monitoring and backup
+              procedures for Qlik Sense.
             </p>
 
             <div class="hero-actions">
@@ -120,17 +155,17 @@
                 class="button button-primary"
                 href="#cases"
               >
-                Смотреть кейсы
+                View case studies
               </a>
 
               <a
                 class="button button-secondary"
-                href="assets/docs/vyacheslav-dmitrov-resume.pdf"
+                href="../assets/docs/vyacheslav-dmitrov-resume-en.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
               >
-                Скачать резюме
+                Download CV
               </a>
             </div>
 
@@ -163,19 +198,19 @@
 
           <aside
             class="hero-card"
-            aria-label="Специализация"
+            aria-label="Specialization"
           >
             <p class="hero-card-title">
-              Специализация
+              Specialization
             </p>
 
             <ul class="hero-specialization">
-              <li>Приложения Qlik Sense и Power BI</li>
-              <li>Qlik Script, ETL и QVD-слои</li>
-              <li>Интеграции с 1С, SQL, CRM и REST API</li>
-              <li>Section Access и разграничение данных</li>
-              <li>Мониторинг загрузок и диагностика сбоев</li>
-              <li>Резервное копирование и восстановление Qlik Sense</li>
+              <li>Qlik Sense and Power BI applications</li>
+              <li>Qlik Script, ETL and QVD layers</li>
+              <li>1C, SQL, CRM and REST API integrations</li>
+              <li>Section Access and data-level security</li>
+              <li>Reload monitoring and incident diagnostics</li>
+              <li>Qlik Sense backup and recovery</li>
             </ul>
 
             <div class="availability">
@@ -184,7 +219,7 @@
                 aria-hidden="true"
               ></span>
 
-              Рассматриваю проектную работу и задачи по развитию BI
+              Available for project-based work and BI development
             </div>
           </aside>
         </div>
@@ -192,37 +227,32 @@
 
       <section
         class="metrics"
-        aria-label="Основные направления работы"
+        aria-label="Main areas of expertise"
       >
         <div class="container metrics-grid">
           <article class="metric-card">
-            <strong>С 2015 года</strong>
-            <span>Аналитика данных</span>
+            <strong>Since 2015</strong>
+            <span>data analysis and reporting</span>
           </article>
 
           <article class="metric-card">
-            <strong>С 2021 года</strong>
-            <span>BI-разработка</span>
+            <strong>Since 2021</strong>
+            <span>BI development</span>
           </article>
 
           <article class="metric-card">
-            <strong>Qlik Sense</strong>
-            <span>основная BI-платформа</span>
+            <strong>Qlik Sense / QVD</strong>
+            <span>primary technology stack</span>
           </article>
 
           <article class="metric-card">
-            <strong>Power BI</strong>
-            <span>управленческие отчёты</span>
+            <strong>Power BI / DAX</strong>
+            <span>management reporting</span>
           </article>
 
           <article class="metric-card">
-            <strong>ETL / QVD</strong>
-            <span>загрузки и слои данных</span>
-          </article>
-
-          <article class="metric-card">
-            <strong>1С / SQL / API</strong>
-            <span>подключение источников</span>
+            <strong>1C / SQL / API</strong>
+            <span>data sources and integrations</span>
           </article>
         </div>
       </section>
@@ -234,66 +264,66 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-label">
-              Профессиональный профиль
+              Professional profile
             </p>
 
-            <h2>Обо мне</h2>
+            <h2>About me</h2>
           </div>
 
           <div class="about-grid">
             <div class="about-content">
               <p class="about-lead">
-                Работаю с BI с 2021 года. Создаю приложения
-                Qlik Sense и Power BI, загрузочные скрипты,
-                модели данных и технические механизмы
-                сопровождения платформы.
+                I have worked in BI since 2021, developing
+                Qlik Sense and Power BI applications,
+                data-loading scripts, data models and technical
+                mechanisms for BI platform support.
               </p>
 
               <p>
-                Подключаю данные из 1С, SQL-баз, CRM, REST API,
-                Google Sheets и файловых источников. В Qlik Sense
-                работаю с Qlik Script, QVD, Set Analysis,
-                мэппингами и Section Access.
+                I integrate data from 1C, SQL databases, CRM systems,
+                REST APIs, Google Sheets and file-based sources.
+                In Qlik Sense, I work with Qlik Script, QVD,
+                Set Analysis, mapping tables and Section Access.
               </p>
 
               <p>
-                В текущих задачах участвую в сборе требований,
-                разработке отчётов, проверке расчётов,
-                сопровождении перезагрузок, разборе инцидентов
-                и резервном копировании компонентов Qlik Sense.
+                My responsibilities include requirements analysis,
+                report development, calculation validation,
+                reload support, incident analysis and backup
+                of Qlik Sense components.
               </p>
             </div>
 
             <div class="principles-card">
-              <h3>Что делаю</h3>
+              <h3>What I do</h3>
 
               <ul class="check-list">
                 <li>
-                  Уточняю требования и состав показателей
+                  Clarify requirements and define business metrics
                 </li>
 
                 <li>
-                  Подключаю и проверяю источники данных
+                  Connect and validate data sources
                 </li>
 
                 <li>
-                  Разрабатываю ETL-скрипты и QVD-слои
+                  Develop ETL scripts and QVD layers
                 </li>
 
                 <li>
-                  Создаю модели данных и интерфейсы приложений
+                  Build data models and application interfaces
                 </li>
 
                 <li>
-                  Настраиваю Section Access
+                  Configure Section Access
                 </li>
 
                 <li>
-                  Диагностирую ошибки загрузок и приложений
+                  Diagnose application and reload errors
                 </li>
 
                 <li>
-                  Разрабатываю процедуры Backup и восстановления
+                  Develop backup and recovery procedures
                 </li>
               </ul>
             </div>
@@ -308,14 +338,14 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-label">
-              Технологический стек
+              Technology stack
             </p>
 
-            <h2>Компетенции</h2>
+            <h2>Skills</h2>
 
             <p>
-              Инструменты и задачи, с которыми работаю
-              в текущих и завершённых проектах.
+              Technologies and tasks I work with
+              in current and completed projects.
             </p>
           </div>
 
@@ -342,7 +372,7 @@
               <div class="tags">
                 <span>SQL</span>
                 <span>REST API</span>
-                <span>1С</span>
+                <span>1C</span>
                 <span>PostgreSQL</span>
                 <span>MySQL</span>
                 <span>MariaDB</span>
@@ -356,12 +386,12 @@
 
               <div class="tags">
                 <span>ETL</span>
-                <span>Моделирование данных</span>
-                <span>Config-driven extraction</span>
-                <span>Мэппинг полей</span>
-                <span>Инкрементальные загрузки</span>
-                <span>Мониторинг перезагрузок</span>
-                <span>Оптимизация приложений</span>
+                <span>Data Modeling</span>
+                <span>Config-driven Extraction</span>
+                <span>Field Mapping</span>
+                <span>Incremental Loads</span>
+                <span>Reload Monitoring</span>
+                <span>Application Optimization</span>
                 <span>Backup</span>
                 <span>Disaster Recovery</span>
                 <span>PowerShell</span>
@@ -369,16 +399,16 @@
             </article>
 
             <article class="skill-card">
-              <h3>Работа с заказчиком</h3>
+              <h3>Business Collaboration</h3>
 
               <div class="tags">
-                <span>Сбор требований</span>
-                <span>Описание показателей</span>
-                <span>Подготовка ТЗ</span>
-                <span>Проверка расчётов</span>
-                <span>Приёмочное тестирование</span>
-                <span>Обучение пользователей</span>
-                <span>Сопровождение решений</span>
+                <span>Requirements Gathering</span>
+                <span>Metric Definition</span>
+                <span>Technical Specifications</span>
+                <span>Calculation Validation</span>
+                <span>User Acceptance Testing</span>
+                <span>User Training</span>
+                <span>Solution Support</span>
               </div>
             </article>
           </div>
@@ -392,15 +422,15 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-label">
-              Практический опыт
+              Practical experience
             </p>
 
-            <h2>Избранные кейсы</h2>
+            <h2>Selected case studies</h2>
 
             <p>
-              На скриншотах использованы демонстрационные названия
-              и синтетические показатели. Структура экранов
-              и логика решений сохранены.
+              The screenshots use demonstration names
+              and synthetic values. The screen structure
+              and solution logic have been preserved.
             </p>
           </div>
 
@@ -408,8 +438,10 @@
             <article class="case-card">
               <div class="case-media">
                 <img
-                  src="img/cases/powerbi-sales-dashboard.webp"
-                  alt="Обезличенный управленческий отчёт в Power BI"
+                  src="../assets/img/cases/powerbi-sales-dashboard.webp"
+                  alt="Anonymized Power BI management report"
+                  width="1600"
+                  height="900"
                   loading="lazy"
                   decoding="async"
                 >
@@ -417,47 +449,48 @@
 
               <div class="case-content">
                 <p class="case-number">
-                  Кейс 01
+                  Case study 01
                 </p>
 
                 <h3>
-                  Управленческий отчёт дилерского направления
-                  в Power BI
+                  Automotive dealership management report
+                  in Power BI
                 </h3>
 
                 <div class="case-section">
-                  <h4>Задача</h4>
+                  <h4>Objective</h4>
 
                   <p>
-                    Собрать в одном отчёте показатели продаж,
-                    выполнения планов, дохода и выдач автомобилей
-                    с возможностью анализа по периоду,
-                    филиалу и направлению.
+                    Combine sales, target achievement,
+                    revenue and vehicle delivery metrics
+                    in one report, with analysis by period,
+                    branch and business area.
                   </p>
                 </div>
 
                 <div class="case-section">
-                  <h4>Реализация</h4>
+                  <h4>Implementation</h4>
 
                   <p>
-                    Создал отчёт в Power BI с фильтрами
-                    и связанными визуализациями. На листе представлены
-                    план-факт в штуках и денежных показателях,
-                    динамика по дням и разрезы по брендам,
-                    моделям, дилерским центрам и менеджерам.
+                    I developed a Power BI report with filters
+                    and interconnected visualizations.
+                    The report includes unit and financial
+                    plan-versus-actual metrics, daily trends,
+                    and breakdowns by brand, model,
+                    dealership and sales manager.
                   </p>
                 </div>
 
                 <div class="case-result">
                   <strong>
-                    Что показано на скриншоте
+                    What is shown in the screenshot
                   </strong>
 
                   <p>
-                    Фильтры по периоду и организационным разрезам,
-                    KPI-карточки, план-факт, структура дохода,
-                    динамика выдач и рейтинги по моделям
-                    и менеджерам.
+                    Period and organizational filters,
+                    KPI cards, plan-versus-actual indicators,
+                    revenue structure, vehicle delivery trends
+                    and rankings by model and sales manager.
                   </p>
                 </div>
 
@@ -466,8 +499,8 @@
                   <span>DAX</span>
                   <span>Power Query</span>
                   <span>Excel</span>
-                  <span>План-факт</span>
-                  <span>Управленческая отчётность</span>
+                  <span>Plan vs Actual</span>
+                  <span>Management Reporting</span>
                 </div>
               </div>
             </article>
@@ -475,8 +508,10 @@
             <article class="case-card">
               <div class="case-media">
                 <img
-                  src="img/cases/config-driven-extract.webp"
-                  alt="Обезличенная конфигурация экстракции и мэппинга"
+                  src="../assets/img/cases/config-driven-extract.webp"
+                  alt="Anonymized extraction and field-mapping configuration"
+                  width="1600"
+                  height="900"
                   loading="lazy"
                   decoding="async"
                 >
@@ -484,55 +519,56 @@
 
               <div class="case-content">
                 <p class="case-number">
-                  Кейс 02
+                  Case study 02
                 </p>
 
                 <h3>
-                  Управление экстракцией и мэппингом
-                  через Google Sheets
+                  Extraction and field-mapping management
+                  through Google Sheets
                 </h3>
 
                 <div class="case-section">
-                  <h4>Задача</h4>
+                  <h4>Objective</h4>
 
                   <p>
-                    Вынести перечень таблиц, параметры загрузки
-                    и правила переименования полей
-                    из отдельных Qlik-скриптов
-                    в централизованный конфигурационный файл.
+                    Move table lists, loading parameters
+                    and field-renaming rules from individual
+                    Qlik scripts into a centralized
+                    configuration file.
                   </p>
                 </div>
 
                 <div class="case-section">
-                  <h4>Реализация</h4>
+                  <h4>Implementation</h4>
 
                   <p>
-                    Qlik-скрипт считывает конфигурационные листы
-                    Google Sheets. Флаг экстракции определяет,
-                    загружать ли таблицу; отдельные параметры задают
-                    поток и сценарий периодической или инкрементальной
-                    загрузки. На листе Fields хранится мэппинг
-                    технических полей и пользовательских наименований.
+                    The Qlik script reads configuration sheets
+                    stored in Google Sheets. An extraction flag
+                    determines whether a table is loaded.
+                    Additional parameters define the processing
+                    stream and periodic or incremental loading
+                    scenario. The Fields sheet stores mappings
+                    between technical field names and
+                    user-facing labels.
                   </p>
                 </div>
 
                 <div class="case-result">
                   <strong>
-                    Что показано на скриншоте
+                    What is shown in the screenshot
                   </strong>
 
                   <p>
-                    Конфигурация источников и таблиц,
-                    флаги загрузки, параметры инкремента,
-                    префиксы, типы таблиц и таблица
-                    переименования полей.
+                    Source and table configuration,
+                    extraction flags, incremental-load parameters,
+                    prefixes, table types and field-renaming rules.
                   </p>
                 </div>
 
                 <div class="case-stack">
                   <span>Google Sheets</span>
                   <span>Qlik Script</span>
-                  <span>Config-driven extraction</span>
+                  <span>Config-driven Extraction</span>
                   <span>Field Mapping</span>
                   <span>Incremental Load</span>
                   <span>QVD</span>
@@ -547,22 +583,23 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-label">
-              Контур разработки
+              Development workflow
             </p>
 
-            <h2>Рабочая схема BI-решения</h2>
+            <h2>BI solution workflow</h2>
 
             <p>
-              Типовой состав задач от подключения источника
-              до публикации приложения и его сопровождения.
+              A typical set of tasks, from connecting
+              a data source to publishing and supporting
+              a BI application.
             </p>
           </div>
 
           <div class="architecture-flow">
             <article class="architecture-step">
               <span class="architecture-number">01</span>
-              <h3>Источники</h3>
-              <p>1С, CRM, SQL, REST API, Google Sheets</p>
+              <h3>Sources</h3>
+              <p>1C, CRM, SQL, REST API and Google Sheets</p>
             </article>
 
             <span
@@ -574,8 +611,8 @@
 
             <article class="architecture-step">
               <span class="architecture-number">02</span>
-              <h3>Извлечение</h3>
-              <p>Коннекторы, SQL-запросы, REST и файлы</p>
+              <h3>Extraction</h3>
+              <p>Connectors, SQL queries, REST APIs and files</p>
             </article>
 
             <span
@@ -587,8 +624,8 @@
 
             <article class="architecture-step">
               <span class="architecture-number">03</span>
-              <h3>QVD-слои</h3>
-              <p>Хранение, преобразование и бизнес-правила</p>
+              <h3>QVD layers</h3>
+              <p>Storage, transformations and business rules</p>
             </article>
 
             <span
@@ -600,8 +637,8 @@
 
             <article class="architecture-step">
               <span class="architecture-number">04</span>
-              <h3>BI-приложения</h3>
-              <p>Модель данных, показатели и визуализации</p>
+              <h3>BI applications</h3>
+              <p>Data models, metrics and visualizations</p>
             </article>
 
             <span
@@ -613,23 +650,23 @@
 
             <article class="architecture-step">
               <span class="architecture-number">05</span>
-              <h3>Доступ</h3>
-              <p>Section Access, роли и организационные разрезы</p>
+              <h3>Access</h3>
+              <p>Section Access, roles and organizational scope</p>
             </article>
           </div>
 
           <div class="platform-layer">
             <strong>
-              Контур эксплуатации
+              Platform operations
             </strong>
 
             <div class="tags">
-              <span>Мониторинг загрузок</span>
-              <span>Логи</span>
-              <span>Проверка данных</span>
+              <span>Reload Monitoring</span>
+              <span>Logs</span>
+              <span>Data Validation</span>
               <span>Backup</span>
-              <span>Восстановление</span>
-              <span>Документация</span>
+              <span>Recovery</span>
+              <span>Documentation</span>
             </div>
           </div>
         </div>
@@ -642,21 +679,21 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-label">
-              Карьерная траектория
+              Career path
             </p>
 
-            <h2>Опыт</h2>
+            <h2>Experience</h2>
           </div>
 
           <div class="timeline">
             <article class="timeline-item">
               <div class="timeline-period">
-                2021 — настоящее время
+                2021 — Present
               </div>
 
               <div class="timeline-content">
                 <h3>
-                  BI-разработчик / аналитик BI
+                  BI Developer / BI Analyst
                 </h3>
 
                 <p class="timeline-company">
@@ -664,35 +701,35 @@
                 </p>
 
                 <p>
-                  Разработка и сопровождение приложений
-                  Qlik Sense и Power BI для продаж,
-                  сервиса, финансов, маркетинга
-                  и других подразделений.
+                  Development and support of Qlik Sense
+                  and Power BI applications for sales,
+                  service, finance, marketing
+                  and other business units.
                 </p>
 
                 <ul>
                   <li>
-                    Qlik Sense, Power BI и модели данных
+                    Qlik Sense, Power BI and data models
                   </li>
 
                   <li>
-                    Интеграции с 1С, SQL, CRM и REST API
+                    Integrations with 1C, SQL, CRM and REST APIs
                   </li>
 
                   <li>
-                    ETL-скрипты и QVD-слои
+                    ETL scripts and QVD layers
                   </li>
 
                   <li>
-                    Section Access и разграничение данных
+                    Section Access and data access controls
                   </li>
 
                   <li>
-                    Мониторинг и диагностика перезагрузок
+                    Reload monitoring and diagnostics
                   </li>
 
                   <li>
-                    Резервное копирование компонентов Qlik Sense
+                    Backup of Qlik Sense components
                   </li>
                 </ul>
               </div>
@@ -704,16 +741,16 @@
               </div>
 
               <div class="timeline-content">
-                <h3>Программист-стажёр</h3>
+                <h3>Software Development Intern</h3>
 
                 <p class="timeline-company">
                   Cetera
                 </p>
 
                 <p>
-                  Вёрстка, исправление ошибок
-                  и сопровождение сайтов на WordPress,
-                  Joomla, CeteraCMS и 1С-Битрикс.
+                  Front-end layout, bug fixing
+                  and website support using WordPress,
+                  Joomla, CeteraCMS and 1C-Bitrix.
                 </p>
               </div>
             </article>
@@ -725,34 +762,35 @@
 
               <div class="timeline-content">
                 <h3>
-                  Специалист аналитического отдела
+                  Analytics Department Specialist
                 </h3>
 
                 <p class="timeline-company">
-                  ДТЭК
+                  DTEK
                 </p>
 
                 <p>
-                  Работа с 1С, Excel, Power Query и Power Pivot,
-                  подготовка регулярной отчётности,
-                  расчёт показателей и обучение пользователей.
+                  Work with 1C, Excel, Power Query and Power Pivot,
+                  preparation of recurring reports,
+                  calculation of operational metrics
+                  and user training.
                 </p>
 
                 <ul>
                   <li>
-                    Администрирование и контроль данных в 1С
+                    1C administration and data control
                   </li>
 
                   <li>
-                    Excel, Power Query и Power Pivot
+                    Excel, Power Query and Power Pivot
                   </li>
 
                   <li>
-                    Подготовка аналитической отчётности
+                    Analytical reporting
                   </li>
 
                   <li>
-                    Обучение пользователей
+                    User training
                   </li>
                 </ul>
               </div>
@@ -765,10 +803,10 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-label">
-              Подготовка
+              Education
             </p>
 
-            <h2>Образование и обучение</h2>
+            <h2>Education and training</h2>
           </div>
 
           <div class="education-grid">
@@ -777,10 +815,10 @@
                 2018
               </span>
 
-              <h3>Программная инженерия</h3>
+              <h3>Software Engineering</h3>
 
               <p>
-                Национальный горный университет
+                National Mining University
               </p>
             </article>
 
@@ -790,13 +828,13 @@
               </span>
 
               <h3>
-                Построение аналитических отчётов
-                на базе Qlik Sense
+                Building Analytical Reports
+                with Qlik Sense
               </h3>
 
               <p>
-                Учебный центр «Специалист»
-                при МГТУ им. Н. Э. Баумана
+                Specialist Training Center
+                at Bauman Moscow State Technical University
               </p>
             </article>
 
@@ -806,7 +844,7 @@
               </span>
 
               <h3>
-                Power BI: разработка и визуализация
+                Power BI: Development and Visualization
               </h3>
 
               <p>
@@ -824,15 +862,15 @@
         <div class="container contact-container">
           <div>
             <p class="section-label">
-              Контакты
+              Contact
             </p>
 
-            <h2>Обсудить задачу</h2>
+            <h2>Discuss a BI project</h2>
 
             <p>
-              Рассматриваю проектную работу по Qlik Sense,
-              Power BI, интеграции источников,
-              сопровождению и развитию BI-решений.
+              I am available for project-based work involving
+              Qlik Sense, Power BI, data-source integrations,
+              BI solution support and platform development.
             </p>
           </div>
 
@@ -841,7 +879,7 @@
               class="button button-primary"
               href="mailto:vyacheslavdmitrov@gmail.com"
             >
-              Написать на email
+              Send an email
             </a>
 
             <a
@@ -859,7 +897,7 @@
       <div class="container footer-container">
         <div>
           <strong>
-            Вячеслав Дмитров
+            Vyacheslav Dmitrov
           </strong>
 
           <p>
@@ -892,13 +930,21 @@
             HeadHunter
           </a>
 
+          <a
+            href="../"
+            lang="ru"
+            hreflang="ru"
+          >
+            Русская версия
+          </a>
+
           <a href="mailto:vyacheslavdmitrov@gmail.com">
             Email
           </a>
         </div>
 
         <p class="copyright">
-          © 2026 Вячеслав Дмитров
+          © 2026 Vyacheslav Dmitrov
         </p>
       </div>
     </footer>
