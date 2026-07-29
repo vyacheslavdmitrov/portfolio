@@ -1521,12 +1521,13 @@ button:focus-visible {
   }
 
   .case-media {
-    min-height: 250px;
-  }
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+   }
 
-  .case-media img {
-    min-height: 250px;
-  }
+.case-media img {
+  min-height: 0;
+   }
 
   .architecture-flow {
     grid-template-columns: 1fr;
